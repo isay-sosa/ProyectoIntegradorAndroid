@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_fill_requiered_fields">Debes llenar todos los campos con *.</string>
+    
+    <string name="error_create_customer">Un error ocurrió al tratar de crear el cliente.</string>
+    <string name="error_modify_customer">Un error ocurrió al tratar de modificar el cliente.</string>
+    <string name="error_deleting_single_customer">Un error ocurrió al tratar de eliminar el cliente.</string>
+    <string name="error_deleting_selected_customers">Un error ocurrió al tratar de eliminar los clientes seleccionados.</string>
+    
+    <string name="error_create_product">Un error ocurrió al tratar de crear el producto.</string>
+    <string name="error_modify_product">Un error ocurrió al tratar de modificar el producto.</string>
+    <string name="error_deleting_single_product">Un error ocurrió al tratar de eliminar el producto.</string>
+    <string name="error_deleting_selected_products">Un error ocurrió al tratar de eliminar los productos seleccionados.</string>
+
+    <string name="error_sale_made">Un error ocurrió al tratar de realizar la venta.</string>
+</resources>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Crimson"
+                android:paddingLeft="5dp"
+                android:text="@string/header_customer_info"
+                android:textColor="@color/White" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp" >
+
+                <TableRow android:layout_width="100dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/customer_Text"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/lblCustomerName"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/Gray_Footer"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/txtAddress_Hint"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/lblCustomerAddress"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/Gray_Footer"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/txtPhone_Hint"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/lblCustomerPhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/Gray_Footer"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/txtCellPhone_Hint"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/lblCustomerCellPhone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/Gray_Footer"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/txtEmail_Hint"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/lblCustomerEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/Gray_Footer"
+                        android:textSize="17sp" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp" >
+
+                <Button
+                    android:id="@+id/btnModify"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/btnModify_Text" />
+
+                <Button
+                    android:id="@+id/btnDelete"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/btnDelete_Text" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Crimson"
+                android:paddingLeft="5dp"
+                android:text="@string/header_last_purchase_info"
+                android:textColor="@color/White" />
+
+            <LinearLayout
+                android:id="@+id/parentProducts"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/homeProducts_Text"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp" >
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/date_Text"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/lblDate"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/Gray_Footer"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/state_Text"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/lblState"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/Gray_Footer"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/total_Text"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/lblTotal"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/Red"
+                        android:textSize="17sp" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp" >
+
+                <Button
+                    android:id="@+id/btnPaying"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/btnPaying_Text" />
+
+                <Button
+                    android:id="@+id/btnFinished"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/btnFinished_Text" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

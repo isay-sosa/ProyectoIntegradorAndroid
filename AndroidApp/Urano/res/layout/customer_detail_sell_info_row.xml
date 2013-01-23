@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/purachase_id_Text"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lblPurachaseId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txt1"
+        android:textColor="@color/Gray_Footer"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/txt1"
+        android:layout_below="@id/txt1"
+        android:text="@string/homeProducts_Text"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:id="@+id/parentProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txt2"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/txt1"
+        android:layout_below="@id/parentProducts"
+        android:text="@string/date_Text"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lblDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txt3"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txt3"
+        android:textColor="@color/Gray_Footer"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/txt1"
+        android:layout_below="@id/lblDate"
+        android:text="@string/total_Text"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lblTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txt4"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txt4"
+        android:textColor="@color/Gray_Footer"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/txt1"
+        android:layout_below="@id/txt4"
+        android:text="@string/payed_Text"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lblPayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txt5"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txt5"
+        android:textColor="@color/Gray_Footer"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/txt1"
+        android:layout_below="@id/txt5"
+        android:text="@string/remaining_Text"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lblRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txt6"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txt6"
+        android:textColor="@color/Gray_Footer"
+        android:textSize="17sp" />
+
+</RelativeLayout>

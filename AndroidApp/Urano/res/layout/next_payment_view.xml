@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Crimson"
+        android:paddingLeft="5dp"
+        android:text="@string/header_next_payment"
+        android:textColor="@color/White" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/date_Text"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/lblNextPaymentDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/Gray_Footer"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/payment_Text"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/lblNextPaymentNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/Gray_Footer"
+                android:textSize="17sp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

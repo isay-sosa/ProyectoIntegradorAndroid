@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnByDay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/by_day_Text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lblReportByDayDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/by_day_description_Text"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnByWeek"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/by_week_Text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lblReportByWeekDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/by_week_description_Text"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnByMonth"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/by_month_Text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lblReportByMonthDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/by_month_description_Text"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp" >
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/txtName_Hint"
+                    android:inputType="textCapWords" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/lblRequiredField_Text"
+                    android:textColor="@color/Red"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/txtLastName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/txtLastName_Hint"
+                    android:inputType="textCapWords" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/lblRequiredField_Text"
+                    android:textColor="@color/Red"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="15dp" >
+
+                <EditText
+                    android:id="@+id/txtAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/txtAddress_Hint"
+                    android:inputType="textMultiLine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/lblRequiredField_Text"
+                    android:textColor="@color/Red"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/txtCity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/txtCity_Hint"
+                    android:inputType="textCapWords" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/lblRequiredField_Text"
+                    android:textColor="@color/Red"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/txtState"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/txtState_Hint"
+                    android:inputType="textCapWords" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/lblRequiredField_Text"
+                    android:textColor="@color/Red"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="15dp" >
+
+                <EditText
+                    android:id="@+id/txtPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/txtPhone_Hint"
+                    android:inputType="phone|number" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/lblRequiredField_Text"
+                    android:textColor="@color/White"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/txtCellPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/txtCellPhone_Hint"
+                    android:inputType="phone|number" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/lblRequiredField_Text"
+                    android:textColor="@color/White"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="15dp" >
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/txtEmail_Hint"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/lblRequiredField_Text"
+                    android:textColor="@color/White"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer_btnpositive_btnnegative" />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@id/lblAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblAppName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:focusable="true"
+        android:hint="@string/txtUsername_Hint" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtUsername"
+        android:layout_alignRight="@id/txtUsername"
+        android:layout_below="@id/txtUsername"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/txtPassword_Hint"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtUsername"
+        android:layout_alignRight="@id/txtUsername"
+        android:layout_below="@id/txtPassword"
+        android:layout_marginTop="15dp"
+        android:text="@string/btnLogin_Text"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lblCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/txtUsername"
+        android:layout_below="@id/btnLogin"
+        android:layout_marginTop="5dp"
+        android:text="@string/lblCreateAccount_Text"
+        android:textColor="@color/Blue"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lblImportData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtUsername"
+        android:layout_below="@id/btnLogin"
+        android:layout_marginTop="5dp"
+        android:text="@string/lblImportData_Text"
+        android:textColor="@color/Blue"
+        android:textSize="17sp" />
+
+</RelativeLayout>

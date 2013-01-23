@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Crimson"
+        android:paddingLeft="5dp"
+        android:text="@string/header_product_info"
+        android:textColor="@color/White" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TableRow android:layout_width="100dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/product_Text"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/lblProductName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/Gray_Footer"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/txtBrand_Hint"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/lblProductBrand"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/Gray_Footer"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/txtModel_Hint"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/lblProductModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/Gray_Footer"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/txtPrice_Hint"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/lblProductPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/Gray_Footer"
+                android:textSize="17sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/txtDesc_Hint"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/lblProductDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/Gray_Footer"
+                android:textSize="17sp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <Button
+            android:id="@+id/btnModify"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnModify_Text" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnDelete_Text" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Crimson"
+        android:paddingLeft="5dp"
+        android:text="@string/header_customers_info"
+        android:textColor="@color/White" />
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

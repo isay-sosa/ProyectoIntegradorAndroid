@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include 
+        android:id="@+id/header"
+        layout="@layout/header"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/customer_Text"
+            android:textSize="17sp" />
+
+        <Spinner
+            android:id="@+id/spnCustomers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/homeProducts_Text"
+            android:textSize="17sp" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/lblTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/simbol_$"
+                android:textColor="@color/Red"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/lblTotal"
+                android:text="@string/total_Text"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer_btnpositive_btnnegative" />
+
+</LinearLayout>

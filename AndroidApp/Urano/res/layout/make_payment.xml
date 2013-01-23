@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/total_Text"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/lblTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/Gray_Footer"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/payed_Text"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/lblPayed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/Gray_Footer"
+                        android:textSize="17sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/remaining_Text"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/lblRemaining"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/Gray_Footer"
+                        android:textSize="17sp" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp" >
+
+                <EditText
+                    android:id="@+id/txtPayment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/agreed_payment_Text"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/lblRequiredField_Text"
+                    android:textColor="@color/Red"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer_btnpositive_btnnegative" />
+
+</LinearLayout>

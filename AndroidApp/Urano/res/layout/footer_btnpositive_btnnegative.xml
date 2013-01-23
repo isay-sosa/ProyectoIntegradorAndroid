@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Gray_Footer"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="3dp" >
+
+    <Button
+        android:id="@+id/btnPositive"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnNegative"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="15dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/imgCustomers"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:contentDescription="@string/homeCustomers_Text"
+            android:src="@drawable/no_customers" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imgCustomers"
+            android:layout_alignRight="@id/imgCustomers"
+            android:layout_below="@id/imgCustomers"
+            android:gravity="center"
+            android:text="@string/homeCustomers_Text"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imgProducts"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:contentDescription="@string/homeProducts_Text"
+            android:src="@drawable/no_products" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imgProducts"
+            android:layout_alignRight="@id/imgProducts"
+            android:layout_below="@id/imgProducts"
+            android:gravity="center"
+            android:text="@string/homeProducts_Text"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/imgPayments"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:contentDescription="@string/homePayments_Text"
+            android:src="@drawable/payment" />
+
+        <TextView
+            android:id="@+id/txtNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/imgPayments"
+            android:layout_marginLeft="70dp"
+            android:background="@color/Red"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/White" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imgPayments"
+            android:layout_alignRight="@id/imgPayments"
+            android:layout_below="@id/imgPayments"
+            android:gravity="center"
+            android:text="@string/homePayments_Text"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imgReports"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:contentDescription="@string/homeReports_Text"
+            android:src="@drawable/report" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imgReports"
+            android:layout_alignRight="@id/imgReports"
+            android:layout_below="@id/imgReports"
+            android:gravity="center"
+            android:text="@string/homeReports_Text"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <ImageView
+            android:id="@+id/imgSync"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:contentDescription="@string/homeSync_Text"
+            android:src="@drawable/sync" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imgSync"
+            android:layout_alignRight="@id/imgSync"
+            android:layout_below="@id/imgSync"
+            android:gravity="center"
+            android:text="@string/homeSync_Text"
+            android:textSize="20sp" />
+
+        <!--
+        <ImageView
+            android:id="@+id/imgPrefs"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:contentDescription="@string/homePrefs_Text"
+            android:src="@drawable/preferences" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/imgPrefs"
+            android:layout_alignRight="@id/imgPrefs"
+            android:layout_below="@id/imgPrefs"
+            android:gravity="center"
+            android:text="@string/homePrefs_Text"
+            android:textSize="17sp" />
+        -->
+    </RelativeLayout>
+
+</RelativeLayout>

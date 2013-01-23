@@ -1,0 +1,69 @@
+CREATE DATABASE IF NOT EXISTS odbytdb;
+USE odbytdb;
+
+CREATE TABLE IF NOT EXISTS seller(
+    IdSeller INT PRIMARY KEY AUTO_INCREMENT,
+    Username VARCHAR(50) NOT NULL,
+    Password VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS customer(
+    IdCustomer INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Address VARCHAR(100) NOT NULL,
+    City VARCHAR(50) NOT NULL,
+    State VARCHAR(50) NOT NULL,
+    Phone VARCHAR(20),
+    Cellphone VARCHAR(20),
+    eMail VARCHAR(100)
+);
+
+CREATE TABLE IF NOT EXISTS product(
+    IdProduct INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(50) NOT NULL,
+    Brand VARCHAR(50),
+    Model VARCHAR(50),
+    Price DOUBLE NOT NULL,
+    Description VARCHAR(250)
+);
+
+CREATE TABLE IF NOT EXISTS sell (
+    IdSell INT PRIMARY KEY AUTO_INCREMENT,
+    IdCustomer INT NOT NULL,
+    ChargeType INT NOT NULL,
+    DayToCharge INT NOT NULL,
+    HourToCharge INT NOT NULL,
+    TotalPayment DOUBLE,
+    AgreedPayment DOUBLE,
+    NextPayment DOUBLE,
+    State INT,
+    FOREIGN KEY (IdCustomer)
+        REFERENCES customer (IdCustomer)
+        ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS sell_product (
+    IdSellProduct INT PRIMARY KEY AUTO_INCREMENT,
+    IdSell INT NOT NULL,
+    IdProduct INT NOT NULL,
+    Amount INT NOT NULL,
+    FOREIGN KEY (IdSell)
+        REFERENCES sell (IdSell)
+        ON UPDATE CASCADE ON DELETE CASCADE,
+    FOREIGN KEY (IdProduct)
+        REFERENCES product (IdProduct)
+        ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS payment (
+    IdPayment INT PRIMARY KEY AUTO_INCREMENT,
+    IdSell INT NOT NULL,
+    Payment DOUBLE NOT NULL,
+    Payment_Date INT NOT NULL,
+    Payment_Hour INT NOT NULL,
+    FOREIGN KEY (IdSell)
+        REFERENCES sell (IdSell)
+        ON UPDATE CASCADE ON DELETE CASCADE
+);G

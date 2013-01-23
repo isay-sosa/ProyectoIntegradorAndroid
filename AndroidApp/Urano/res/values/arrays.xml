@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="customers_list_on_item_long_click_dialog">
+        <item>Delete Customer</item>
+        <item>Modify Customer</item>
+    </string-array>
+    <string-array name="products_list_on_item_long_click_dialog">
+        <item>Delete Product</item>
+        <item>Modify Product</item>
+    </string-array>
+    <string-array name="days_of_the_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="how_to_pass_to_charge_the_payment">
+        <item>Every week</item>
+        <item>Every 2 weeks</item>
+        <item>Every month</item>
+    </string-array>
+
+</resources>

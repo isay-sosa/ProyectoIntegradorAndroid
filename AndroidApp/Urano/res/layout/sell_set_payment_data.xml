@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_Text"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lblTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/simbol_$"
+                    android:textColor="@color/Red"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/agreed_payment_Text"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/txtAgreedPayment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/agreed_payment_Text"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/lblRequiredField_Text"
+                    android:textColor="@color/Red"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/down_payment_Text"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/txtDownPayment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/down_payment_Text"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/lblRequiredField_Text"
+                    android:textColor="@color/Red"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer_btnpositive_btnnegative" />
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<resources>
+    
+    <string name="menu_settings">Configuraciones</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_create_seller">Crear Vendedor</string>
+    <string name="title_activity_modify_seller">Modificar Vendedor</string>
+    <string name="title_activity_create_customer">Crear Cliente</string>
+    <string name="title_activity_modify_customer">Modificar Cliente</string>
+    <string name="title_activity_delete_customers">Eliminar Clientes</string>
+    <string name="title_activity_finished_purachase">Compras Finalizadas</string>
+    <string name="title_activity_paying_purachase">Compras Pagando</string>
+    <string name="title_activity_customer_details">Detalles del Cliente</string>
+    <string name="title_activity_create_product">Crear Producto</string>
+    <string name="title_activity_modify_product">Modificar Producto</string>
+    <string name="title_activity_delete_products">Eliminar Productos</string>
+    <string name="title_activity_product_details">Detalles del Producto</string>
+    <string name="title_activity_payments">Pagos</string>
+    <string name="title_activity_reports">Reportes</string>
+    <string name="title_activity_reports_by">Reportes por</string>
+    
+    <string name="homeCustomers_Text">Clientes</string>
+    <string name="homeProducts_Text">Productos</string>
+    <string name="homePayments_Text">Pagos</string>
+    <string name="homeReports_Text">Reportes</string>
+    <string name="homeSync_Text">Sync</string>
+    <string name="homePrefs_Text">Preferencias</string>
+    
+    <string name="customer_Text">Cliente</string>
+    <string name="date_Text">Fecha</string>
+    <string name="finished_Text">Terminada</string>
+    <string name="make_payment_Text">Realizar Pago</string>
+    <string name="make_sell_Text">Realizar Venta</string>
+    <string name="product_Text">Producto</string>
+    <string name="payed_Text">Pagado</string>
+    <string name="paying_Text">Pagando</string>
+    <string name="purachase_id_Text">Id Compra</string>
+    <string name="remaining_Text">Restante</string>
+    <string name="payment_Text">Pago</string>
+    <string name="state_Text">Estado</string>
+
+    <string name="txtUsername_Hint">Usuario</string>
+    <string name="txtPassword_Hint">Contraseña</string>
+    <string name="btnLogin_Text">Entrar</string>
+    <string name="lblCreateAccount_Text">Crear Cuenta</string>
+    <string name="lblImportData_Text">Importar Datos</string>
+    
+    <string name="txtName_Hint">Nombre</string>
+    <string name="txtLastName_Hint">Apellidos</string>
+    <string name="txtAddress_Hint">Dirección</string>
+    <string name="txtCity_Hint">Ciudad</string>
+    <string name="txtState_Hint">Estado</string>
+    <string name="txtPhone_Hint">Teléfono</string>
+    <string name="txtCellPhone_Hint">Celular</string>
+    
+    <string name="txtPrice_Hint">Precio</string>    
+    <string name="txtBrand_Hint">Marca</string>
+    <string name="txtModel_Hint">Modelo</string>
+    <string name="txtDesc_Hint">Descripción</string>
+    
+    <string name="imgNoCustomers_ContentDescription">No Clientes</string>
+    <string name="lblNoCustomers_Text">No hay clientes creados.</string>
+    <string name="btnCreateCustomer_Text">Crear Cliente</string>
+    <string name="lblCustomerState">Estado:</string>
+    <string name="txtSearchCustomers_Hint">Buscar Clientes</string>
+    
+    <string name="imgNoProducts_ContentDescription">No Productos</string>
+    <string name="lblNoProducts_Text">No hay productos creados.</string>
+    <string name="btnCreateProduct_Text">Crear Producto</string>
+    <string name="lblProductBrand_Title">Marca: </string>
+    <string name="txtSearchProducts_Hint">Buscar Productos</string>
+    
+    <string name="header_customer_info">Información del Cliente</string>
+    <string name="header_last_purchase_info">Información Última Compra</string>
+    <string name="header_next_payment">Próximo Pago</string>
+    <string name="header_payments_history">Historial de Pagos</string>
+    <string name="header_product_info">Información del Producto</string>
+    <string name="header_customers_info">Información de los Clientes</string>
+    
+    <string name="today_payments">Pagos de hoy</string>
+    <string name="next_payments">Próximos pagos</string>
+    
+    <string name="lblAllItems_Text">Todo</string>
+    
+    <string name="day_to_pass_Text">Día a pasar</string>
+    <string name="hour_to_pass_Text">Hora a pasar</string>
+    <string name="go_to_collect_Text">Pasar a cobrar</string>
+    <string name="agreed_payment_Text">Pago acordado</string>
+    <string name="down_payment_Text">Pago de enganche</string>
+    
+    <string name="by_day_Text">Por Día</string>
+    <string name="by_month_Text">Por Mes</string>
+    <string name="by_week_Text">Por Semana</string>
+    <string name="day_Text">día</string>
+    <string name="days_Text">Días</string>
+    <string name="month_Text">mes</string>
+    <string name="months_Text">Meses</string>
+    <string name="week_Text">semana</string>
+    <string name="weeks_Text">Semanas</string>
+    <string name="by_day_description_Text">Permite obtener un listado de los días en que se cobró. Al seleccionar un día de la lista, se generará un reporte de todos los cobros realizados en dicho día, con datos del cliente, los productos, etc.</string>
+    <string name="by_month_description_Text">Permite obtener un listado de los meses en que se cobró. Al seleccionar un mes de la lista, se generará un reporte de todos los cobros realizados en dicho mes, con datos del cliente, los productos, etc.</string>
+    <string name="by_week_description_Text">Permite obtener un listado de las semanas en que se cobró. Al seleccionar una semana de la lista, se generará un reporte de todos los cobros realizados en dicha semana, con datos del cliente, los productos, etc.</string>
+    
+    <string name="january">Ener</string>
+    <string name="february">Febrero</string>
+    <string name="march">Marzo</string>
+    <string name="april">Abril</string>
+    <string name="may">Mayo</string>
+    <string name="june">Junio</string>
+    <string name="july">Julio</string>
+    <string name="august">Agosto</string>
+    <string name="september">Septiembre</string>
+    <string name="october">Octubre</string>
+    <string name="november">Noviembre</string>
+    <string name="december">Diciembre</string>
+    
+    <!-- Dialog messages and titles -->
+    <string name="delete_single_customer_message">¿Está seguro que desea eliminar este cliente?</string>
+    <string name="delete_sigle_customer_title">Eliminando Cliente</string>
+    <string name="delete_selected_customers_message">¿Está seguro que desea eliminar los clientes seleccionados?</string>
+    <string name="delete_selected_customers_title">Eliminando Clientes</string>
+    
+    <string name="delete_single_product_message">¿Está seguro que desea eliminar este producto?</string>
+    <string name="delete_sigle_product_title">Eliminando Producto</string>
+    <string name="delete_selected_products_message">¿Está seguro que desea eliminar los productos seleccionados?</string>
+    <string name="delete_selected_products_title">Eliminando Productos</string>
+    
+    <string name="sale_made_message">La venta se ha realizado con éxito</string>
+    <string name="payment_made_message">El pago se ha realizado con éxito.</string>
+    
+    <!-- Menu titles -->
+    <string name="add_customer_menu">Agregar Cliente</string>
+    <string name="delete_customers_menu">Eliminar Clientes</string>
+    <string name="add_product_menu">Agregar Producto</string>
+    <string name="delete_products_menu">Eliminar Productos</string>
+    <string name="update_info_account_menu">Actualizar Info de Cuenta</string>
+    <string name="close_session_account_menu">Cerrar Sesión</string>
+    
+    <string name="btnCancel_Text">Cancelar</string>
+    <string name="btnConfirm_Text">Confirmar</string>
+    <string name="btnCreate_Text">Crear</string>
+    <string name="btnDelete_Text">Eliminar</string>
+    <string name="btnFinished_Text">Terminadas</string>
+    <string name="btnGoBack_Text">Regresar</string>
+    <string name="btnModify_Text">Modificar</string>
+    <string name="btnMorePayments_Text">Más Pagos</string>
+    <string name="btnNext_Text">Siguiente</string>
+    <string name="btnPaying_Text">Pagando</string>    
+    <string name="btnSave_Text">Guardar</string>
+</resources>

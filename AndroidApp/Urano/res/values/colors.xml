@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Red colors -->
+    <color name="IndianRed">#CD5C5C</color>
+    <color name="LightCoral">#F08080</color>
+    <color name="Salmon">#FA8072</color>
+    <color name="DarkSalmon">#E9967A</color>
+    <color name="LightSalmon">#FFA07A</color>
+    <color name="Crimson">#DC143C</color>
+    <color name="Red">#FF0000</color>
+    <color name="FireBrick">#B22222</color>
+    <color name="DarkRed">#8B0000</color>
+
+    <!-- Pink colors -->
+    <color name="Pink">#FFC0CB</color>
+    <color name="LightPink">#FFB6C1</color>
+    <color name="HotPink">#FF69B4</color>
+    <color name="DeepPink">#FF1493</color>
+    <color name="MediumVioletRed">#C71585</color>
+    <color name="PaleVioletRed">#DB7093</color>
+
+    <!-- Orange colors -->
+    <color name="Coral">#FF7F50</color>
+    <color name="Tomato">#FF6347</color>
+    <color name="OrangeRed">#FF4500</color>
+    <color name="DarkOrange">#FF8C00</color>
+    <color name="Orange">#FFA500</color>
+
+    <!-- Yellow colors -->
+    <color name="Gold">#FFD700</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="LightYellow">#FFFFE0</color>
+    <color name="LemonChiffon">#FFFACD</color>
+    <color name="LightGoldenrodYellow">#FAFAD2</color>
+    <color name="PapayaWhip">#FFEFD5</color>
+    <color name="Moccasin">#FFE4B5</color>
+    <color name="PeachPuff">#FFDAB9</color>
+    <color name="PaleGoldenrod">#EEE8AA</color>
+    <color name="Khaki">#F0E68C</color>
+    <color name="DarkKhaki">#BDB76B</color>
+
+    <!-- Purple colors -->
+
+
+    <!-- Green colors -->
+
+
+    <!-- Blue colors -->
+    <color name="Aqua_Cyan">#00FFFF</color>
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="PaleTurquoise">#AFEEEE</color>
+    <color name="Aquamarine">#7FFFD4</color>
+    <color name="Turquoise">#40E0D0</color>
+    <color name="MediumTurquoise">#48D1CC</color>
+    <color name="DarkTurquoise">#00CED1</color>
+    <color name="CadetBlue">#5F9EA0</color>
+    <color name="SteelBlue">#4682B4</color>
+    <color name="LightSteelBlue">#B0C4DE</color>
+    <color name="PowderBlue">#B0E0E6</color>
+    <color name="LightBlue">#ADD8E6</color>
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="DodgerBlue">#1E90FF</color>
+    <color name="CornflowerBlue">#6495ED</color>
+    <color name="MediumSlateBlue">#7B68EE</color>
+    <color name="RoyalBlue">#4169E1</color>
+    <color name="Blue">#0000FF</color>
+    <color name="MediumBlue">#0000CD</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="Navy">#000080</color>
+    <color name="MidnightBlue">#191970</color>
+
+    <!-- Brown colors -->
+
+
+    <!-- White colors -->
+    <color name="White">#FFFFFF</color>
+
+    <!-- Black colors -->
+    <color name="Black">#000000</color>
+    <color name="Gray_Footer">#AEA6A6</color>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_updateInfoAccount"
+        android:icon="@drawable/ic_menu_compose"
+        android:title="@string/update_info_account_menu"/>
+    <item
+        android:id="@+id/menu_closeSession"
+        android:icon="@drawable/ic_menu_close_clear_cancel"
+        android:title="@string/close_session_account_menu"/>
+
+</menu>

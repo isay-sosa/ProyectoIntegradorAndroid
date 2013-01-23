@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_fill_requiered_fields">You must fill all the fields with *.</string>
+    
+    <string name="error_create_customer">An error occurred while trying to create the customer.</string>
+    <string name="error_modify_customer">An error occurred while trying to modiy the customer.</string>
+    <string name="error_deleting_single_customer">An error occurred while trying to delete the customer.</string>
+    <string name="error_deleting_selected_customers">An error occurred while trying to delete the selected customers.</string>
+    
+    <string name="error_create_product">An error occurred while trying to create the product.</string>
+    <string name="error_modify_product">An error occurred while trying to modify the product.</string>
+    <string name="error_deleting_single_product">An error occurred while trying to delete the product.</string>
+    <string name="error_deleting_selected_products">An error occurred while trying to delete the selected products.</string>
+    
+    <string name="error_sale_made">An error occured while trying to make the sale.</string>
+
+</resources>

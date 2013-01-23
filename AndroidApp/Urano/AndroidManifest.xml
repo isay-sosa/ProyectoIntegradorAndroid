@@ -1,0 +1,93 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="proyecto.integrador.odbyt"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme_NoTitleBar" >
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".Seller.CreateSeller" >
+        </activity>
+        <activity android:name=".Seller.ModifySeller" >
+        </activity>
+        <activity android:name=".Customer.NoCustomers" >
+        </activity>
+        <activity android:name=".Customer.CreateCustomer" >
+        </activity>
+        <activity android:name=".Customer.CustomersList" >
+        </activity>
+        <activity android:name=".Customer.CustomerDetail" >
+        </activity>
+        <activity android:name=".Customer.CustomerDetailSellsList" >
+        </activity>
+        <activity android:name=".Customer.CustomerPaymentsHistoryList" >
+        </activity>
+        <activity android:name=".Customer.ModifyCustomer" >
+        </activity>
+        <activity android:name=".Customer.DeleteCustomers" >
+        </activity>
+        <activity android:name=".Product.NoProducts" >
+        </activity>
+        <activity android:name=".Product.CreateProduct" >
+        </activity>
+        <activity android:name=".Product.ModifyProduct" >
+        </activity>
+        <activity android:name=".Product.ProductsList" >
+        </activity>
+        <activity android:name=".Product.DeleteProducts" >
+        </activity>
+        <activity android:name=".Product.ProductDetails" >
+        </activity>
+        <activity android:name=".Product.CustomersPayingList" >
+        </activity>
+        <activity android:name=".Product.CustomersFinishedList" >
+        </activity>
+        <activity android:name=".Sell.MakeSell_Select_Customer_Products" >
+        </activity>
+        <activity android:name=".Sell.MakeSell_Select_Date" >
+        </activity>
+        <activity android:name=".Sell.MakeSell_Payment_Data" >
+        </activity>
+        <activity android:name=".Payment.PaymentTabHost" >
+        </activity>
+        <activity android:name=".Payment.TodayPaymentsList" >
+        </activity>
+        <activity android:name=".Payment.MakePayment" >
+        </activity>
+        <activity android:name=".Payment.NextPaymentsList" >
+        </activity>
+        <activity android:name=".Report.SelectReportType" >
+        </activity>
+        <activity android:name=".Report.ReportsList1" >
+        </activity>
+        <activity android:name=".Report.ReportsList2" >
+        </activity>
+    </application>
+
+</manifest>
